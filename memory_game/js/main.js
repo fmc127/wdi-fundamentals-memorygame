@@ -35,7 +35,6 @@ var flipCard = function () {
 	cardsInPlay.push(cards[cardId].rank);
 	this.setAttribute('src', cards[cardId].cardImage);
 	console.log("User flipped " + cards[cardId].rank);
-	cardElement.addEventListener('click');
 
 	console.log(cards[cardId].cardImage);
 	console.log(cards[cardId].suit);
